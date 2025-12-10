@@ -101,9 +101,13 @@ export const metadata: Metadata = {
   
   // Icons
   icons: {
-    icon: '/favicon.svg',
-    shortcut: '/favicon.svg',
-    apple: '/apple-touch-icon.png', // Convert apple-touch-icon.svg to PNG (180x180)
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon-32x32.png', type: 'image/png', sizes: '32x32' },
+      { url: '/favicon-16x16.png', type: 'image/png', sizes: '16x16' },
+    ],
+    shortcut: '/favicon.ico',
+    apple: '/apple-touch-icon.png', // 180x180 PNG
   },
   
   // Manifest for PWA
