@@ -1,0 +1,18 @@
+{
+  "name": "Evosoft LLC",
+  "short_name": "Evosoft",
+  "description": "Software Engineering Consulting - Building Tomorrow's Solutions Today",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0f0a",
+  "theme_color": "#FB4E14",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
+

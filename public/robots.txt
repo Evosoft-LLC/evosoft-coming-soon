@@ -1,0 +1,16 @@
+# Robots.txt for Evosoft LLC
+# https://evosoft.com
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://evosoft.com/sitemap.xml
+
+# Crawl-delay (optional, be nice to servers)
+Crawl-delay: 1
+
+# Block common bot paths (not applicable for this simple site, but good practice)
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
