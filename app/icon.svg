@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 324 324">
-  <!-- White background circle -->
-  <circle cx="162" cy="161.5" r="140" fill="#ffffff"/>
-  <!-- Orange ring -->
-  <circle cx="162" cy="161.5" r="144.58" stroke="#FB4E14" stroke-width="9.5" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 334 334">
+  <!-- White circle (background + border) -->
+  <circle cx="162" cy="161.5" r="146" fill="#ffffff"/>
+  <!-- Orange rotating ring (floating outside with gap) -->
+  <circle cx="162" cy="161.5" r="164" stroke="#FB4E14" stroke-width="8" fill="none"/>
   <!-- Orange E logo -->
   <g fill="#FB4E14">
     <path d="M249.19,176.08c-4.37,4.37-4.37,11.48,0,15.85s11.48,4.37,15.85,0c4.37-4.37,4.37-11.48,0-15.85C260.68,171.71,253.56,171.71,249.19,176.08z"/>
