@@ -53,7 +53,9 @@ function MatrixRain() {
 
   useEffect(() => {
     const updateColumns = () => {
-      setColumnCount(Math.floor(window.innerWidth / 20))
+      // Limit columns for better performance (max 40 columns)
+      const maxColumns = Math.min(Math.floor(window.innerWidth / 40), 40)
+      setColumnCount(maxColumns)
     }
 
     updateColumns()
@@ -68,7 +70,8 @@ function MatrixRain() {
       left: `${(i / Math.max(columnCount, 1)) * 100}%`,
       delay: seededRandom(i * 7) * 10,
       opacity: seededRandom(i * 13) * 0.3 + 0.1,
-      chars: Array.from({ length: 30 }, (_, j) => 
+      // Reduced from 30 to 15 characters per column for performance
+      chars: Array.from({ length: 15 }, (_, j) => 
         CODE_CHARS[Math.floor(seededRandom(i * 100 + j) * CODE_CHARS.length)]
       ),
     }))
@@ -186,7 +189,7 @@ export default function Home() {
 
         <section className={styles.hero} aria-labelledby="hero-title">
           <div className={styles.heroContent}>
-            <div className={styles.badge} role="status">
+            <div className={styles.badge}>
               <span className={styles.statusDot} aria-hidden="true" />
               <span>Software Engineering Consulting</span>
             </div>
