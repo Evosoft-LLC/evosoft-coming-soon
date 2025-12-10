@@ -64,13 +64,13 @@ git push -u origin main
 
 ## ✅ Pre-Deployment Checklist
 
-Before your first deploy, update these in the code:
+Before your first deploy:
 
-- [ ] `app/layout.tsx` - Update `SITE_URL` to your actual domain
-- [ ] `public/sitemap.xml` - Update domain URL
-- [ ] `public/robots.txt` - Update domain URL  
-- [ ] Convert `og-image.svg` to `og-image.png` (1200×630)
-- [ ] Convert `apple-touch-icon.svg` to `apple-touch-icon.png` (180×180)
+- [x] `app/layout.tsx` - ✅ Set to `https://www.evosoftllc.com`
+- [x] `public/sitemap.xml` - ✅ Updated
+- [x] `public/robots.txt` - ✅ Updated  
+- [ ] Convert `og-image.svg` to `og-image.png` (1200×630) - *optional, for social sharing*
+- [ ] Convert `apple-touch-icon.svg` to `apple-touch-icon.png` (180×180) - *optional, for iOS*
 
 ---
 

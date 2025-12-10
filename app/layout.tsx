@@ -14,8 +14,7 @@ const jetbrainsMono = JetBrains_Mono({
   display: 'swap',
 })
 
-// Update this when you have your domain
-const SITE_URL = 'https://evosoft.com'
+const SITE_URL = 'https://www.evosoftllc.com'
 const SITE_NAME = 'Evosoft LLC'
 
 export const viewport: Viewport = {

@@ -1,6 +1,6 @@
 # Domain Setup Guide
 
-This guide explains how to point your domain (hosted at Square/Google Domains) to your Vercel or Netlify deployment.
+This guide explains how to point your domain `www.evosoftllc.com` (hosted at Square Domains) to your Vercel deployment.
 
 ## 📋 Before You Start
 
