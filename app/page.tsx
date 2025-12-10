@@ -123,20 +123,28 @@ const Logo = memo(function Logo() {
   return (
     <svg 
       className={styles.logo} 
-      viewBox="0 0 324 324" 
+      viewBox="-5 -5 334 334" 
       fill="none" 
       xmlns="http://www.w3.org/2000/svg"
       role="img"
       aria-label="Evosoft LLC Logo"
     >
       <title>Evosoft LLC</title>
+      {/* White circle (background + visible border) */}
+      <circle 
+        cx="162" 
+        cy="161.5" 
+        r="146" 
+        fill="#ffffff"
+      />
+      {/* Orange rotating ring (floating outside with gap) */}
       <circle 
         className={styles.logoRing} 
         cx="162" 
         cy="161.5" 
-        r="144.58" 
+        r="164" 
         stroke="var(--primary-orange)" 
-        strokeWidth="9.5" 
+        strokeWidth="8" 
         fill="none"
       />
       <g className={styles.logoE}>

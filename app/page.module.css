@@ -172,7 +172,7 @@
 .logo {
   width: 60px;
   height: 60px;
-  filter: drop-shadow(0 0 20px rgba(251, 78, 20, 0.3));
+  /* filter: drop-shadow(0 0 20px rgba(251, 78, 20, 0.3)); */
 }
 
 @media (min-width: 768px) {
